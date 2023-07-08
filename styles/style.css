@@ -103,7 +103,9 @@ main{
     margin-top: 0;
 }
 /* what i do section styles  */
-.what-i-do >
+.what-i-do{
+    background-color: aqua;
+}
 .skills{
     display: flex;
     justify-content: space-around;
@@ -123,5 +125,33 @@ main{
 .skill-description{
     text-align: justify;
 }
-/* header section styles  */
+/* resume section styles  */
+.resume-title{
+    margin-top: 80px;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.resume-column-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.resume-item{
+    padding: 0px 20px;
+    margin: 10px 20px;
+}
+.resume-item-title{
+    margin-bottom: 5px;
+}
+.resume-institute{
+    margin-top: 0;
+}
+.resume-item-description{
+    text-align: justify;
+}
+.resume-column hr{
+    width: 90%;
+    margin: auto;
+}
 /* header section styles  */
