@@ -15,6 +15,10 @@
     margin: 0px 5px;
     font-weight: bold;
 }
+.section-title{
+    text-align: center;
+    font-size: 28px;
+}
 /* header section styles  */
 header{
     background-color: #FFF8F3;
@@ -76,9 +80,10 @@ header{
 main{
     width: 1050px;
     margin: auto;
-    background-color: #FD6E0A;
+    /* background-color: #FD6E0A; */
     margin-top: 70px;
 }
+/* about section styles  */
 .about-section{
     text-align: center;
     padding: 70px 90px;
@@ -97,6 +102,26 @@ main{
 .about-data > h4{
     margin-top: 0;
 }
-/* header section styles  */
+/* what i do section styles  */
+.what-i-do >
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    border: 1px solid rgb(216, 204, 204);
+    margin: 15px;
+    margin-top: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(129, 128, 128);
+}
+.skill-name{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    text-align: justify;
+}
 /* header section styles  */
 /* header section styles  */
