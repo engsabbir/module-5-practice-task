@@ -72,7 +72,31 @@ header{
     margin-bottom: -5px;
 }
 
-/* header section styles  */
+/* main section styles  */
+main{
+    width: 1050px;
+    margin: auto;
+    background-color: #FD6E0A;
+    margin-top: 70px;
+}
+.about-section{
+    text-align: center;
+    padding: 70px 90px;
+    background-color: #FFF8F3;
+}
+.about-row{
+    display: flex;
+    justify-content: space-around;
+}
+.about-data{
+    margin: 0px 20px;
+}
+.about-data> p{
+    margin-bottom: 0;
+}
+.about-data > h4{
+    margin-top: 0;
+}
 /* header section styles  */
 /* header section styles  */
 /* header section styles  */
