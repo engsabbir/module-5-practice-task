@@ -1,165 +1,246 @@
 /* shared style  */
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
+
 .txt-primary{
+    color: #181818;
+}
+.highlighted-text{
     color: #FD6E0A;
 }
-.btn-primary{
+.text-dark-1{
+    color:#474747;
+}
+.text-dark-2{
+    color:#757575;
+}
+
+.btn-primary {
     color: #fff;
     background-color: #FD6E0A;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    /* margin: 0px 5px; */
-    font-weight: bold;
+    font-size: 18px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
     font-size: 28px;
 }
+
 /* header section styles  */
-header{
+header {
     background-color: #FFF8F3;
     background-image: url('../assets/images/header_bg.png'), url('../assets/images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, center left;
 }
-.site-logo{
+
+.site-logo {
     font-size: x-large;
+    cursor: pointer;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 150px;
 }
-.nav-link > ul{
+
+.nav-link>ul {
     display: flex;
     justify-content: space-around;
 }
-.nav-link > ul> li{
+
+.nav-link>ul>li {
     list-style: none;
     margin-left: 50px;
 }
-.nav-link > ul > li > a, button{
+
+.nav-link>ul>li>a,
+button {
     text-decoration: none;
     color: black;
     font-size: 20px;
     font-weight: 600;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
 }
-.banner-text{
+
+.banner-text {
     margin-left: 150px;
 }
-.banner-text > h3{
+
+.banner-text>h3 {
     font-size: 45px;
     margin-bottom: 0;
 }
-.banner-text > h1{
+
+.banner-text>h1 {
     font-size: 85px;
     margin-top: 0;
 }
-.banner-text > p{
+
+.banner-text>p {
     margin-top: -50px;
     line-height: 30px;
 }
 
-.banner-img img{
+.banner-img img {
     margin-bottom: -5px;
 }
 
 /* main section styles  */
-main{
+main {
     width: 1050px;
     margin: auto;
     /* background-color: #FD6E0A; */
     margin-top: 70px;
 }
+
 /* about section styles  */
-.about-section{
+.about-section {
     text-align: center;
     padding: 70px 90px;
     background-color: #FFF8F3;
 }
-.about-row{
+
+.about-row {
     display: flex;
     justify-content: space-around;
 }
-.about-data{
+
+.about-data {
     margin: 0px 20px;
 }
-.about-data> p{
+
+.about-data>p {
     margin-bottom: 0;
 }
-.about-data > h4{
+
+.about-data>h4 {
     margin-top: 0;
 }
+
 /* what i do section styles  */
-.what-i-do{
-    background-color: aqua;
+.what-i-do {
     padding: 40px 70px;
 }
-.what-i-do > p{
+
+.what-i-do>p {
     text-align: center;
 }
-.skills{
+
+.skills {
     display: flex;
     justify-content: space-around;
 }
-.skill{
+
+.skill {
     border: 1px solid rgb(216, 204, 204);
     margin: 15px;
     margin-top: 50px;
-    padding: 10px 15px;
+    padding: 15px 25px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(129, 128, 128);
 }
-.skill-name{
+
+.skill-name {
     margin-top: 15px;
     margin-bottom: 10px;
 }
-.skill-description{
+
+.skill-description {
     text-align: justify;
 }
+
 /* resume section styles  */
-.resume-title{
+.resume-title {
     margin-top: 80px;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 30px;
 }
-.resume-column-title{
+
+.resume-column-title {
     text-align: center;
     margin-top: 50px;
 }
-.resume-item{
+
+.resume-item {
     padding: 0px 20px;
     margin: 10px 20px;
 }
-.resume-item-title{
+
+.resume-item-title {
     margin-bottom: 5px;
 }
-.resume-institute{
+
+.resume-institute {
     margin-top: 0;
 }
-.resume-item-description{
+
+.resume-item-description {
     text-align: justify;
 }
-.resume-column hr{
+
+.resume-column hr {
     width: 90%;
     margin: auto;
 }
-.download-cv-btn{
+
+.download-cv-btn {
     text-align: center;
     margin-top: 2rem;
 }
-/* header section styles  */
+
+/* footer section styles  */
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 220px;
+    width: 1050px;
+    margin: auto;
+    padding-top: 70px;
+    margin-top: 50px;
+}
+
+.footer-column p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social-icon a {
+    margin-right: 1.5rem;
+}
+
+.footer-column input,
+textarea {
+    width: 300px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.footer-column input[type="email"] {
+    margin: 20px 0px;
+}
+
+.footer-column textarea {
+    resize: none;
+    margin-bottom: 20px;
+}
