@@ -12,7 +12,7 @@
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    margin: 0px 5px;
+    /* margin: 0px 5px; */
     font-weight: bold;
 }
 .section-title{
@@ -105,6 +105,10 @@ main{
 /* what i do section styles  */
 .what-i-do{
     background-color: aqua;
+    padding: 40px 70px;
+}
+.what-i-do > p{
+    text-align: center;
 }
 .skills{
     display: flex;
@@ -153,5 +157,9 @@ main{
 .resume-column hr{
     width: 90%;
     margin: auto;
+}
+.download-cv-btn{
+    text-align: center;
+    margin-top: 2rem;
 }
 /* header section styles  */
